@@ -1,3 +1,26 @@
-p{
-    color: blueviolet;
+/*Types of selctors in css */
+/*-------------------------------------------------------*/
+
+h1{
+    color: aliceblue;         /* Tag selector*/
+}
+
+#head1{
+    font-family: 'Times New Roman', Times, serif;    /* Id selector*/
+}
+
+.text{
+    text-align: center;        /* class selector*/
+}
+
+p.text{
+    text-align: center;        /* Tag + class selector*/
+}
+
+*{
+    color: aqua;            /*universal selector applies to all elements*/
+}
+
+h1,text,#head1{
+    font-size: 1px;           /* Grouping slectors we can combine many tags*/          
 }
